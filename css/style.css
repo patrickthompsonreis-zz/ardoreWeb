@@ -547,9 +547,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-/* ==============================
-Sections
-============================== */
+/* ============================== Sections ============================== */
 
 /* ==============================
 Header
@@ -598,7 +596,7 @@ Section with background
 ============================== */
 
 .section-bg {
-  background: rgb(240, 240, 240);
+  background: rgb(218, 218, 218);
 }
 
 /* ==============================
@@ -751,6 +749,11 @@ Services Section
 .video-position {
   margin: 0 auto;
   float: none;
+  height: 405px;
+  width: 720px;
+}
+
+#service .container .video-position {
   height: auto;
   max-width: 100%;
 }
@@ -921,7 +924,6 @@ Products Section
   text-align: justify;
   text-justify: inter-word;
 }
-
 
 
 /* ==============================
@@ -1138,6 +1140,11 @@ Portfolio Section
   margin: 0 auto;
   float: none;
   margin-bottom: 80px;
+ }
+
+ #portfolio .container .carousel-screen {
+   height: auto;
+   max-width: 100%;
  }
 
 
